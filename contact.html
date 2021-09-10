@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <style>
+            h2{
+                text-align: center;
+                font-size: 40px;
+            }
+            h1{
+                text-align: center;
+                text-decoration: none;
+                font-size: 60px;
+            }
+            nav{text-align: center;}
+            a{
+                color:white;
+                padding: 10px;
+                text-decoration: none;
+                opacity: 0.6;
+                }
+            .nav{
+                font-size: 25px;         
+                }
+            .Home:hover{
+                opacity: 0.8;
+                }
+             .Menu:hover{
+                 opacity: 0.8;
+             }   
+             .Contact:hover{
+                 opacity: 0.8;
+             }
+                #back{
+                    background: url(contact.jpg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                label,p{
+                    font-size: 30px;
+                }
+                input{
+                    font-size:20px;
+                }
+                #submit{
+                    background: lightgray;
+                }
+                .field{
+                    margin-left:400px ;
+                    margin-top: 50px;
+                    font-size: 20px;
+                    opacity: 0.8;
+                    font-family: 'Lato', sans-serif;
+                } 
+                .Home{
+                    opacity: 0.6;
+                }
+                .Menu{
+                    opacity: 0.6;
+                }
+                .Contact{
+                    opacity: 0.6;
+                }
+
+        </style> 
+        <body id="back">
+            
+            <nav class="nav">
+                <a class="Home" href="index.html"> Home &nbsp|</a>
+                <a class="Menu" href="menu.html"> Menu &nbsp|</a>
+                <a class="Contact"href="contact.html"> ContactUs </a>
+            </nav>
+            <h1><b>Welcome to The Dhaba</b></h1>
+            <h2>Contact Us</h2>
+            <form class="field">
+                <label ><b>Name :</b></label>
+                <input type="text" user id="name" placeholder="Name"> <br> <br>
+                <label><b>Phone Number :</b></label>
+                <input type="text" user id="phone" placeholder="Phone Number"> <br> <br>
+                <label><b>Email :</b></label>
+                <input type="text" user id="email" placeholder="Email"> <br> <br>
+                <label><b>Address :</b></label>
+                <input type="text" use id="address" placeholder="Address"> <br> <br>
+                <p><b>After Submitting our Customer Executive will get you in touch within 4 hours.</b></p>
+                <label><b>Have you ever Visited in Past Before?</b></label>
+                <input type="checkbox" id="checkbox" value="Have you ever Visited in Past Before?"> <br> <br>
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </body>
+    </head>
+</html>
