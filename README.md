@@ -8,7 +8,6 @@ This is my first mini project which consists of about myself, my technical knowl
 
 ## Specific Features:
 
-- Based on
 - Purely based on HTML & CSS
 - Smooth scrolling and jumping to different sections
 
